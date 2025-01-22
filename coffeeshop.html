@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #3e2723;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ff7043;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            padding: 80px 0;
+            background-color: #3e2723;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        /* Button Styles */
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #ff7043;
+            color: white;
+            font-size: 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #ff5722;
+            transform: scale(1.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Main Content Section */
+        .content {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .content img {
+            width: 100%;
+            max-width: 500px;
+            margin: 20px 0;
+            border-radius: 10px;
+            transition: transform 0.4s ease;
+        }
+
+        .content img:hover {
+            transform: scale(1.4);
+        }
+
+        /* Footer Section */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #3e2723;
+            color: white;
+        }
+        .fimg{
+            margin: 10px;
+        }
+        /* Media Queries */
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            header h1 {
+                font-size: 36px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Our Coffee Shop!</h1>
+        <a href="#" class="btn">Order Now</a>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="content">
+        <a href="#" class="btn">Explore Our Menu</a>
+
+        <h2>Our Specialty</h2>
+        <p>We serve freshly brewed coffee and delicious pastries to start your day right!</p>
+        <img src="coffee.jpg" alt="">
+        <img src="customers.jpg" alt="">
+        <img src="counter.jpg" alt="">
+        <img src="order.jpg" alt="Coffee and pastries">
+        <img src="nicecofee.jpg" alt="">
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p >&copy; 2025 Coffee Shop. All rights reserved.</p>
+        <img class="fimg" width="65" src="1_Facebook_colored_svg_copy-1.webp" alt="">
+        <img class="fimg" src="Telegram-64.webp" alt="">
+        <img class="fimg" src="social_media_logo_whatsapp-.webp" alt="">
+        <img class="fimg" src="Shopify-64.webp" alt="">
+    </footer>
+
+</body>
+</html>
